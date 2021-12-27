@@ -1,5 +1,5 @@
 # ESP-8266
-An application of the NodeMCU ESP-8266 to sample a signal, calculate the RMS value and output a PWM Signal with the related duty-cycle.
+An application using NodeMCU ESP-8266 to sample a signal, calculate the RMS value and output a PWM Signal with the related duty-cycle.
 
 I would like to thank OverEngineeredInOz for his amazing work regarding fast-sampling using Arduino, which was was of great help, check him out at: https://github.com/OverEngineeredInOz
 
