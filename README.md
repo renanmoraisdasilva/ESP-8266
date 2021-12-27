@@ -3,6 +3,8 @@ An application of the NodeMCU ESP-8266 to sample a signal, calculate the RMS val
 
 I would like to thank OverEngineeredInOz for his amazing work regarding fast-sampling using Arduino, which was was of great help, check him out at: https://github.com/OverEngineeredInOz
 
+![Sem título](https://user-images.githubusercontent.com/81625697/147514160-ebcbb058-143e-480d-9260-b894cf041cdf.png)
+
 This Arduino program is intended to be used with NodeMCU ESP-8266 and is part of my final project in Mechanical Engineering undergraduate course.
 
 The main objective is to read and interpret a wave function and output a PWM signal. The intended use is to read a wave function produced by the Hall Effect-Based Linear Current Sensor ACS712 - 5A when connected in series with a electrical load, such as a lamp, it converts a electrical current into a proportional voltage with a sensitivity of 0.185V/A and offset of 2.5V. That enables us to read the voltage using the single Analog input port in the ESP-8266.
